@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import "../Pembahasan/style.css"
-import ClassComponent from "./ClassComponent";
-export default function FunctionalComponent() {
+import React, {useState} from "react";
+import "../Styling/style.css"
+
+export default function Styling(){
     const [darkMode, setDarkMode] = useState();
     return (
       <div className={darkMode ? "mode-gelap" : "mode-terang"}>
@@ -18,7 +18,7 @@ export default function FunctionalComponent() {
         <div>
           <h1>Tampilan Mode {darkMode ? "Gelap" : "Terang"} </h1>
         </div>
-        <div><ClassComponent /></div>
       </div>
     );
-  }
+  
+}

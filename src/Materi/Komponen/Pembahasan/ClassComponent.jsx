@@ -12,8 +12,8 @@ class ClassComponent extends React.Component{
         this.changeColor= this.changeColor.bind(this)
     }
         changeColor() {
-            const newColor = this.changeColor = green ? yellow : green;
-            this.setState({color : newColor})
+            //const newColor = this.changeColor = green ? yellow : green;
+            this.setState({color : this.state.color ===  green ? yellow : green})
         }
     
     render(){
