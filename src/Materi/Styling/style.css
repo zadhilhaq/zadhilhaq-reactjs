@@ -24,16 +24,26 @@
     transition: background-color 0.25s ease-in-out;
   }
   
-  .container {
+  .navbarmargin {
+    margin-right: 40%;
+  }
+
+  .judulmode {
+    visibility: visible;
+    margin-right: 5%;
+  }
+
+  .mode {
+    background-color: gold;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-end;
   }
   
   .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
+    width: 50px;
     height: 24px;
   }
   
@@ -58,8 +68,8 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 15px;
+    width: 15px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -76,8 +86,8 @@
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
     transform: translateX(26px);
   }
   
@@ -87,7 +97,7 @@
   }
   
   .slider.round:before {
-    border-radius: 50%;
+    border-radius: 10%;
   }
   .switch-checkbox {
     padding: 10px;
