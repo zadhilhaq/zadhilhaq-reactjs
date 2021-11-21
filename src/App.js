@@ -1,11 +1,12 @@
 import './App.css';
-import Styling from './Materi/Styling';
+import ValiationForm from './Materi/Form/Pembahasan/Validation';
+
 
 
 function App() {
   return (
     <div className="App">
-        <Styling />
+        <ValiationForm />
     </div>
   );
 }
