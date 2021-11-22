@@ -62,10 +62,10 @@ export default class ValiationForm extends React.Component {
         else{
         alert(`
         Selamat Kamu telah terdaftar sebagai member dengan data sebagai berikut
-        nama : ${this.state.nama},
-        email : ${this.state.email},
-        alamat : ${this.state.alamat},
-        nomor hp : ${this.state.nomorhp},
+        nama : ${this.state.nama}
+        email : ${this.state.email}
+        alamat : ${this.state.alamat}
+        nomor hp : ${this.state.nomorhp}
         pekerjaan : ${this.state.pekerjaan}
         `)
         this.setState({
