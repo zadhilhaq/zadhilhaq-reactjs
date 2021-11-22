@@ -37,7 +37,7 @@ export default class ValiationForm extends React.Component {
          }
 
         if (password.length < 8) {
-        message = [...message,'Pasword harus lebih dari 6 huruf'];
+        message = [...message,'Pasword harus lebih dari 8 huruf'];
         }
 
         if (password.length === 0) {
@@ -123,7 +123,6 @@ export default class ValiationForm extends React.Component {
         <div>
           <Input
             name="nomorhp"
-            type="number"
             label="Nomor Hp"
             onChange={value => this.setState({nomorhp: value})}
           />
