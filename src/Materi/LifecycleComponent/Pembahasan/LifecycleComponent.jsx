@@ -67,8 +67,8 @@ export default class LifecycleComponent extends Component{
                    <div>
                    {
                        this.state.searchData.length?
-                       this.state.searchData.map((item)=>
-                       <div className="container">
+                       this.state.searchData.map((item, index)=>
+                       <div key={index}className="container">
                         
                     <Card className="card" style={{ width: '40rem' }}>
                      <Card.Img style={{width: '40rem'}} variant="top" src={item.urlToImage} />
@@ -87,8 +87,8 @@ export default class LifecycleComponent extends Component{
                    <div>
                    {
                     result.length?
-                    result.map((item)=>
-                    <div className="container">
+                    result.map((item, index)=>
+                    <div key={index} className="container">
                         
                     <Card style={{ width: '40rem' }}>
                     <Card.Img style={{width: '40rem'}} variant="top" src={item.urlToImage} />
