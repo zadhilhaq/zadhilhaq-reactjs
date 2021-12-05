@@ -1,12 +1,12 @@
 import './App.css';
-import ValiationForm from './Materi/Form/Pembahasan/Validation';
+import LifecycleComp from './Materi/LifecycleComponent';
 
 
 
 function App() {
   return (
     <div className="App">
-        <ValiationForm />
+        <LifecycleComp />
     </div>
   );
 }
