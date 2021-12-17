@@ -1,12 +1,12 @@
 import './App.css';
-import LifecycleComp from './Materi/LifecycleComponent';
+import Hooks from './Materi/Hooks';
 
 
 
 function App() {
   return (
     <div className="App">
-        <LifecycleComp />
+        <Hooks />
     </div>
   );
 }
