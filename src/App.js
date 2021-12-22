@@ -1,12 +1,12 @@
 import './App.css';
-import Hooks from './Materi/Hooks';
+import Routing from './Materi/Routing';
 
 
 
 function App() {
   return (
     <div className="App">
-        <Hooks />
+        <Routing />
     </div>
   );
 }
